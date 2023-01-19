@@ -30,6 +30,9 @@ body {
 a {
   text-decoration: none;
 }
+a:hover {
+  filter: brightness(1.1);
+}
 header {
   width: 100%;
   min-height: 80px;
@@ -37,7 +40,10 @@ header {
   align-items: center;
   justify-content: center;
 }
-nav {
+header img {
+  width: 200px;
+}
+ul {
   width: 1250px;
   min-height: 44px;
   display: flex;
