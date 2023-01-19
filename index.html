@@ -23,11 +23,24 @@
     <header>
       <h1>
         <a href="www.globo.com" target="_blank">
-          <img src="src/assets/images/logo-globo.png" alt="Logo Globo.com" />
+          <div class="logo-desktop">
+            <img
+              class="logo-desktop"
+              src="src/assets/images/logos/logo-globo.png"
+              alt="Logo Globo.com"
+            />
+          </div>
+          <div class="logo-mobile">
+            <img
+              class="logo-mobile"
+              src="src/assets/images/logos/logo-mobile.png"
+              alt="Logo Globo.com"
+            />
+          </div>
         </a>
       </h1>
     </header>
-    <hr />
+    <hr class="barra-horizontal" />
     <nav aria-label="menu-desktop" role="navigation" class="menu-desktop">
       <ul>
         <a
@@ -87,7 +100,32 @@
         </a>
       </ul>
     </nav>
-    <hr />
+    <nav aria-label="menu-mobile" role="navigation" class="menu-mobile">
+      <ul>
+        <a
+          href="https://g1.globo.com/?utm_source=globo.com&utm_medium=header"
+          target="_blank"
+        >
+          <li class="site g1">g1</li>
+        </a>
+        <a href="https://ge.globo.com/" target="_blank">
+          <li class="site ge">ge</li>
+        </a>
+        <a
+          href="https://gshow.globo.com/?utm_source=globo.com&utm_medium=header"
+          target="_blank"
+        >
+          <li class="site gshow">gshow</li>
+        </a>
+        <a href="https://somos.globo.com/blog/globotech/" target="_blank">
+          <li class="site tech">tech</li>
+        </a>
+        <a href="www.globo.com" target="_blank">
+          <li class="site videos">vídeos</li>
+        </a>
+      </ul>
+    </nav>
+    <hr class="barra-horizontal" />
     <main>
       <div class="noticias-principais">
         <div class="noticia-principal-g1">
@@ -121,7 +159,7 @@
             </a>
           </div>
         </div>
-        <hr />
+        <hr class="barra-horizontal" />
         <div class="noticias-secundarias-g1">
           <div class="noticias-g1">
             <a
@@ -129,14 +167,16 @@
               target="_blank"
             >
               <div class="noticia">
-                <img
-                  class="imagem-noticia"
-                  src="src/assets/images/alem-do-presidente.jpeg"
-                  alt="imagem-notícia"
-                />
-                <div class="noticia-chamada g1">Além do presidente</div>
-                <div class="noticia-titulo">
-                  CPI deve pedir indiciamento de filhos de Bolsonaro
+                <div class="noticia-box">
+                  <img
+                    class="imagem-noticia"
+                    src="src/assets/images/alem-do-presidente.jpeg"
+                    alt="imagem-notícia"
+                  />
+                  <div class="noticia-chamada g1">Além do presidente</div>
+                  <div class="noticia-titulo">
+                    CPI deve pedir indiciamento de filhos de Bolsonaro
+                  </div>
                 </div>
                 <div class="noticia-subtitulo">
                   A evangélicos, Bolsonaro diz ‘chorar sozinho em casa’
@@ -148,14 +188,16 @@
               target="_blank"
             >
               <div class="noticia">
-                <img
-                  class="imagem-noticia"
-                  src="src/assets/images/crimes-na-fronteira.jpeg"
-                  alt="imagem-notícia"
-                />
-                <div class="noticia-chamada g1">Crimes na fronteira</div>
-                <div class="noticia-titulo">
-                  Triângulo amoroso vira chave em linha de investigação
+                <div class="noticia-box">
+                  <img
+                    class="imagem-noticia"
+                    src="src/assets/images/crimes-na-fronteira.jpeg"
+                    alt="imagem-notícia"
+                  />
+                  <div class="noticia-chamada g1">Crimes na fronteira</div>
+                  <div class="noticia-titulo">
+                    Triângulo amoroso vira chave em linha de investigação
+                  </div>
                 </div>
                 <div class="noticia-subtitulo">
                   1ª de 7 mortes entre Brasil e Paraguai faz 1 semana
@@ -167,14 +209,16 @@
               target="_blank"
             >
               <div class="noticia">
-                <img
-                  class="imagem-noticia"
-                  src="src/assets/images/reino-unido.jpeg"
-                  alt="imagem-notícia"
-                />
-                <div class="noticia-chamada g1">Reino Unido</div>
-                <div class="noticia-titulo">
-                  Parlamentar inglês é esfaqueado e morto em igreja
+                <div class="noticia-box">
+                  <img
+                    class="imagem-noticia"
+                    src="src/assets/images/reino-unido.jpeg"
+                    alt="imagem-notícia"
+                  />
+                  <div class="noticia-chamada g1">Reino Unido</div>
+                  <div class="noticia-titulo">
+                    Parlamentar inglês é esfaqueado e morto em igreja
+                  </div>
                 </div>
                 <div class="noticia-subtitulo">
                   Homem de 25 anos foi preso no local, diz polícia
@@ -189,9 +233,11 @@
               target="_blank"
             >
               <div class="noticia">
-                <div class="noticia-chamada g1">Sabatina de Mendonça</div>
-                <div class="noticia-titulo">
-                  PGR é consultada sobre investigação contra Alcolumbre
+                <div class="noticia-box">
+                  <div class="noticia-chamada g1">Sabatina de Mendonça</div>
+                  <div class="noticia-titulo">
+                    PGR é consultada sobre investigação contra Alcolumbre
+                  </div>
                 </div>
                 <div class="noticia-subtitulo">
                   Aliados dizem que situação de Alcolumbre ‘está feia’
@@ -203,9 +249,11 @@
               target="_blank"
             >
               <div class="noticia">
-                <div class="noticia-chamada g1">Negócio de R$ 5,2 bi</div>
-                <div class="noticia-titulo">
-                  Pão de Açúcar vende 71 pontos do Extra para o Assaí
+                <div class="noticia-box">
+                  <div class="noticia-chamada g1">Negócio de R$ 5,2 bi</div>
+                  <div class="noticia-titulo">
+                    Pão de Açúcar vende 71 pontos do Extra para o Assaí
+                  </div>
                 </div>
                 <div class="noticia-subtitulo">
                   Lembre fusões e aquisições bilionárias recentes no país
@@ -217,9 +265,11 @@
               target="_blank"
             >
               <div class="noticia">
-                <div class="noticia-chamada g1">Elo com caminhoneiros</div>
-                <div class="noticia-titulo">
-                  Podcast: ministro liga empresários a atos de 7/9; ouça
+                <div class="noticia-box">
+                  <div class="noticia-chamada g1">Elo com caminhoneiros</div>
+                  <div class="noticia-titulo">
+                    Podcast: ministro liga empresários a atos de 7/9; ouça
+                  </div>
                 </div>
                 <div class="noticia-subtitulo">
                   Neto de Jango critica veto de Bolsonaro a tributo
@@ -229,7 +279,8 @@
           </div>
         </div>
       </div>
-      <hr class="barra-vertical" />
+      <hr class="barra-vertical mobile" />
+      <hr class="barra-horizontal-mobile" />
       <div class="noticias-secundarias">
         <div class="noticias-ge">
           <a
@@ -237,16 +288,19 @@
             target="_blank"
           >
             <div class="noticia secundaria">
-              <img
-                class="imagem-noticia imagem-secundaria"
-                src="src/assets/images/espiao-estatistico.jpeg"
-                alt="imagem-notícia"
-              />
-              <div class="noticia-chamada ge">Espião estatístico</div>
-              <div class="noticia-titulo">
-                Classificação do returno tem Palmeiras em último; veja as
-                posições
+              <div class="noticia-box">
+                <img
+                  class="imagem-noticia imagem-secundaria"
+                  src="src/assets/images/espiao-estatistico.jpeg"
+                  alt="imagem-notícia"
+                />
+                <div class="noticia-chamada ge">Espião estatístico</div>
+                <div class="noticia-titulo">
+                  Classificação do returno tem Palmeiras em último; veja as
+                  posições
+                </div>
               </div>
+
               <div class="noticia-subtitulo">
                 Crespo almoça com diretoria e deve se despedir no CT
               </div>
@@ -257,14 +311,16 @@
             target="_blank"
           >
             <div class="noticia secundaria">
-              <img
-                class="imagem-noticia imagem-secundaria"
-                src="src/assets/images/greve-segue-na-raposa.jpeg"
-                alt="imagem-notícia"
-              />
-              <div class="noticia-chamada ge">Greve segue na Raposa</div>
-              <div class="noticia-titulo">
-                Cruzeiro não viabiliza recurso para quitar atrasados
+              <div class="noticia-box">
+                <img
+                  class="imagem-noticia imagem-secundaria"
+                  src="src/assets/images/greve-segue-na-raposa.jpeg"
+                  alt="imagem-notícia"
+                />
+                <div class="noticia-chamada ge">Greve segue na Raposa</div>
+                <div class="noticia-titulo">
+                  Cruzeiro não viabiliza recurso para quitar atrasados
+                </div>
               </div>
             </div>
           </a>
@@ -273,14 +329,16 @@
             target="_blank"
           >
             <div class="noticia secundaria">
-              <img
-                class="imagem-noticia imagem-secundaria"
-                src="src/assets/images/campeonato-frances.jpeg"
-                alt="imagem-notícia"
-              />
-              <div class="noticia-chamada ge">Campeonato francês</div>
-              <div class="noticia-titulo">
-                Desfalcado, PSG recebe o Angers, 4º colocado
+              <div class="noticia-box">
+                <img
+                  class="imagem-noticia imagem-secundaria"
+                  src="src/assets/images/campeonato-frances.jpeg"
+                  alt="imagem-notícia"
+                />
+                <div class="noticia-chamada ge">Campeonato francês</div>
+                <div class="noticia-titulo">
+                  Desfalcado, PSG recebe o Angers, 4º colocado
+                </div>
               </div>
             </div>
           </a>
@@ -292,14 +350,16 @@
             target="_blank"
           >
             <div class="noticia secundaria">
-              <img
-                class="imagem-noticia imagem-secundaria"
-                src="src/assets/images/ferias-e-jh.jpeg"
-                alt="imagem-notícia"
-              />
-              <div class="noticia-chamada gshow">Férias e JH</div>
-              <div class="noticia-titulo">
-                César Tralli se emociona na despedida do SP1
+              <div class="noticia-box">
+                <img
+                  class="imagem-noticia imagem-secundaria"
+                  src="src/assets/images/ferias-e-jh.jpeg"
+                  alt="imagem-notícia"
+                />
+                <div class="noticia-chamada gshow">Férias e JH</div>
+                <div class="noticia-titulo">
+                  César Tralli se emociona na despedida do SP1
+                </div>
               </div>
             </div>
           </a>
@@ -308,15 +368,18 @@
             target="_blank"
           >
             <div class="noticia secundaria">
-              <img
-                class="imagem-noticia imagem-secundaria"
-                src="src/assets/images/verdades-secretas-2.jpeg"
-                alt="imagem-notícia"
-              />
-              <div class="noticia-chamada gshow">Verdades Sceretas 2</div>
-              <div class="noticia-titulo">
-                Angel cruza a passarela poderosa; reveja desfiles
+              <div class="noticia-box">
+                <img
+                  class="imagem-noticia imagem-secundaria"
+                  src="src/assets/images/verdades-secretas-2.jpeg"
+                  alt="imagem-notícia"
+                />
+                <div class="noticia-chamada gshow">Verdades Sceretas 2</div>
+                <div class="noticia-titulo">
+                  Angel cruza a passarela poderosa; reveja desfiles
+                </div>
               </div>
+
               <div class="noticia-subtitulo">
                 Blanche terá dois relacionamentos
               </div>
@@ -328,13 +391,15 @@
             target="_blank"
           >
             <div class="noticia secundaria">
-              <img
-                class="imagem-noticia imagem-secundaria"
-                src="src/assets/images/nos-tempos-do-imperador.jpeg"
-                alt="imagem-notícia"
-              />
-              <div class="noticia-chamada gshow">Nos Tempos do Imperador</div>
-              <div class="noticia-titulo">Lota vai cair em golpe</div>
+              <div class="noticia-box">
+                <img
+                  class="imagem-noticia imagem-secundaria"
+                  src="src/assets/images/nos-tempos-do-imperador.jpeg"
+                  alt="imagem-notícia"
+                />
+                <div class="noticia-chamada gshow">Nos Tempos do Imperador</div>
+                <div class="noticia-titulo">Lota vai cair em golpe</div>
+              </div>
               <div class="noticia-subtitulo">Teresa toma decisão radical</div>
             </div>
           </a>
