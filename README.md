@@ -33,8 +33,8 @@ Este projeto é um clone do site da [Globo](https://www.globo.com), simplificado
 
 ##### Mobile:
 
-<img src="src/assets/screen/mobile-1.png" alt="viewing the app on a mobile screen">
-<img src="src/assets/screen/mobile-2.png" alt="viewing the app on a mobile screen">
+<img src="src/assets/screen/mobile-1.1.png" alt="viewing the app on a mobile screen">
+<img src="src/assets/screen/mobile-2.1.png" alt="viewing the app on a mobile screen">
 
 $~$
 
@@ -44,7 +44,7 @@ $~$
 
 <img src="src/assets/screen/medium-screen.gif" alt="viewing the app on a medium screen">
 
-<img src="src/assets/screen/mobile-screen.gif" alt="viewing the app on a small screen">
+<img src="src/assets/screen/mobile-screen-1.gif" alt="viewing the app on a small screen">
 
 $~$
 
