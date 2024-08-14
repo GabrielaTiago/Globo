@@ -24,23 +24,23 @@ Este projeto é um clone do site da [Globo](https://www.globo.com), simplificado
 
 ### Desktop
 
-![app view on a large screen](src/assets/screens/images/large.png)
+![app view on a large screen](src/assets/screen/large.png)
 
 ### Tablet
 
-![app view on a medium screen](src/assets/screens/images/medium-1.png)
-![app view on a medium screen](src/assets/screens/images/medium-2.png)
+![app view on a medium screen](src/assets/screen/medium-1.png)
+![app view on a medium screen](src/assets/screen/medium-2.png)
 
 ### Mobile
 
-![app view on a mobile screen](src/assets/screens/images/mobile-1.1.png)
-![app view on a mobile screen](src/assets/screens/images/mobile-2.1.png)
+![app view on a mobile screen](src/assets/screen/mobile-1.1.png)
+![app view on a mobile screen](src/assets/screen/mobile-2.1.png)
 
 ## 🎮 Usando
 
-<img src="src/assets/screen/medium-screen.gif" alt="viewing the app on a medium screen">
+![using the app on a medium screen](src/assets/screen/medium-screen.gif)
 
-<img src="src/assets/screen/mobile-screen-1.gif" alt="viewing the app on a small screen">
+![using the app on a small screen](src/assets/screen/mobile-screen-1.gif)
 
 ## :books: Lições Aprendidas
 
@@ -58,7 +58,7 @@ Este projeto é um clone do site da [Globo](https://www.globo.com), simplificado
 
 ### :muscle: Contribuição
 
-As contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões de melhoria, abra uma *issue* ou envie um *pull request*.
+Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões de melhoria, abra uma *issue* ou envie um *pull request*.
 
 ### :woman_technologist: Autora
 
